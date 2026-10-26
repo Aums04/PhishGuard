@@ -1,0 +1,68 @@
+{
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "confusion_matrix": [
+    [
+      44,
+      0
+    ],
+    [
+      0,
+      54
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "Legitimate",
+    "Phishing"
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 44.0
+    },
+    "1": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 54.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 98.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 98.0
+    }
+  },
+  "feature_importances": {
+    "url_length": 0.030251950506245007,
+    "hostname_length": 0.031471658878648084,
+    "path_length": 0.018446443676610642,
+    "dot_count": 0.02288664621050009,
+    "hyphen_count": 0.019544359914630275,
+    "at_symbol": 0.004475026469592929,
+    "digit_count_host": 0.020044680462857293,
+    "special_char_count": 0.005154892466132204,
+    "subdomain_count": 0.03428053677577953,
+    "is_ip_host": 0.009545641950369986,
+    "uses_https": 0.4821171932861043,
+    "has_port": 0.0,
+    "suspicious_tld": 0.05003149299515648,
+    "is_shortener": 0.04965307038591418,
+    "digit_letter_ratio": 0.0011054533044321285,
+    "double_slash_in_path": 0.0,
+    "suspicious_keyword_count": 0.1561424534605087,
+    "is_typosquat": 0.06484849925651807
+  },
+  "train_size": 392,
+  "test_size": 98
+}

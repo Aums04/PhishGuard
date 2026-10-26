@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+phishguard/venv/
+
+# Streamlit config / cache
+.streamlit/secrets.toml
+
+# Databases & local data
+*.db
+phishguard/data/phishguard.db
+
+# Generated reports & temporary files
+reports/*.pdf
+phishguard/reports/*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
